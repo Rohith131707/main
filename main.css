@@ -1,0 +1,185 @@
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+            height: 50px;
+        }
+        img{
+            width: 90px;
+            height: 60px;
+            padding-left: px;
+        }
+          .signin {
+         
+            padding: 10px 20px;
+            text-align: right;
+            color: rgb(144, 98, 230);
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        a{
+            text-align: right;
+            align-items: end;
+        }
+
+        .branding-section {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            padding: 10px;
+            border: 1px solid black;
+            background-color: rgb(32, 31, 31);
+            color: #727275;
+        }
+
+        .left-section {
+            display: flex;
+            align-items: center;
+        }
+
+        .branding-item {
+            display: flex;
+            align-items: center;
+            margin-right: 40px; 
+        }
+
+        .branding-item .icon {
+            margin-right: 10px; 
+            font-size: 40px;
+        }
+        .branding-item .fa-truck icon{
+            color: red;
+
+        }
+
+      
+        .location-btn {
+            padding: 20px;
+            padding: 8px 14px;
+            font-size: 17px;
+            cursor: pointer;
+            background-color: #262627;
+            color: #e3dbdb;
+            border:1px solid white;
+            border-radius: 7px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 300px;
+        }
+        nav {
+            display: flex;
+           
+            align-items:start;
+           
+            background-color: #f0f0f0;
+            height: 50px;
+        }
+        nav  img{
+            width:1265px;
+            height: 500px;
+         
+        }
+        .head{
+            color: #262627;
+            font-family: sans-serif;
+            font-weight:initial;
+            font-size: 35px;
+            padding-left: 150PX;
+            padding-top: 700px;
+        }
+        .image-row {
+      display: flex;
+      justify-content: center; 
+      column-gap: 30px; 
+      row-gap: 40px;
+      padding-right: 130px;
+      margin-bottom: 30px;
+    }
+
+    
+    .image-item {
+      display: flex;
+      flex-direction: column; 
+      align-items: left; 
+      border: 2px solid #ccc; 
+      border-radius: 10px; 
+      padding: 15px;
+      width: 320px; 
+      background-color: #f9f9f9; 
+    }
+
+    
+    .image-item img {
+      width: 100%; 
+      height: auto;  
+      margin-bottom: 10px; 
+      border-radius: 8px; 
+    }
+    .image-item p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        .info-section {
+            margin-top: 20px;
+        }
+        .info-section p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        .info-section .price {
+            font-size: 24px;
+            color: #333;
+        }
+
+    /* Styling the buttons */
+    .image-item button {
+      padding: 5px 15px;
+      background-color: #f40e0ecf;
+      color: rgb(27, 6, 6);
+      border: none;
+      border-radius: 515px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .image-item button:hover {
+      background-color: #e10b0b;
+      color: aliceblue;
+    }
+    .footer-box {
+    border: 1px solid #ccc;    
+    padding: 15px;             
+    background-color: #f9f9f9; 
+    font-size: 14px;           
+    text-align: center;        
+    margin-top: 20px;          
+  }
+
+  .social-media {
+    margin-bottom: 10px;
+  }
+
+  .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+
+  .social-icon {
+    width: 30px;  
+    height: auto;
+    align-items: start;
+    text-align: left;
+  }
+       
+    </style>
